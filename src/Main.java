@@ -3,7 +3,7 @@ public class Main {
 
         //задание 1
         System.out.println("задание 1");
-        int age = 5;
+        int age = 10;
         if (age >= 18) {
             System.out.println("Поздравляем вас с совершеннолетием");
         } else {
@@ -24,8 +24,8 @@ public class Main {
         int seatsCount = 60;
         int otherCount = capacity-seatsCount; // стоячие места
 
-        int seatsUsed = 21;
-        int otherUsed = 30;
+        int seatsUsed = 30;
+        int otherUsed = 18;
         if(seatsUsed<seatsCount) {
             System.out.println("Есть еще " +(seatsCount-seatsUsed)+ " сидячих мест");
         } else {
